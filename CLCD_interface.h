@@ -22,7 +22,7 @@
 
 /********/
 #if   CLCD_MODE == 4
-#define FOUR_BITS                     0x28          //4 bits mode initialization
+#define FOUR_BITS                     0x20          //4 bits mode initialization
 #elif CLCD_MODE == 8
 #define EIGHT_BITS                    0x38          //8 bits mode initialization (8-bit data, 2-line display, 5 x 7 font )
 #endif
