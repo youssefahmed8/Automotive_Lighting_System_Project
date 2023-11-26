@@ -59,13 +59,7 @@ extern SW_Type H_SW ;
 /******************************************************************************/
 void APP_vidSetMode(MODE_enutModeState enutSetMode)
 {
-	/*
- IDLE = 0,
-    RIGHT_BLINK,
-    LEFT_BLINK,
-    HAZZARD_BLINK
 
-**/
 	switch(enutSetMode)
 	{
 		case IDLE:
@@ -187,6 +181,7 @@ void MODE_vidHazardBlink (void)
 void MODE_vidInit(void)
 {
 	/* Set Mode to Default (IDLE) */
+	Type=IDLE;
 	MODE_vidIdle();
 }
 
