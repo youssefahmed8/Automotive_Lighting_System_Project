@@ -85,6 +85,6 @@ static void vidInit(void)
 	CLCD_voidInit();
 
 	/*! Initialize APP layer                                                  */
-	
+	MODE_vidInit();
 
 }
